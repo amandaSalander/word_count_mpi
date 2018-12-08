@@ -187,6 +187,9 @@ int main() {
 
     }
 
+    if (world_rank==0){
+        system("rm -r intermidate_map/*");
+    }
 
     // Finalize the MPI environment.
     MPI_Finalize();
