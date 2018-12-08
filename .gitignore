@@ -1,2 +1,2 @@
-intermidate_map/*
-reduce_result/*
+intermidate_map/.*
+reduce_result/.*
